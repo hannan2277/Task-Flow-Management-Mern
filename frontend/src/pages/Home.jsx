@@ -116,15 +116,15 @@ const Home = () => {
     };
 
     return (
-        <div className="min-h-screen bg-red-100 px-4 py-10 text-slate-800">
+        <div className="min-h-screen bg-slate-50 px-4 py-10 text-slate-800">
             <div className="mx-auto max-w-5xl">
-                <div className="mb-8 rounded-2xl bg-gradient-to-r from-black-500 to-indigo-200 p-8 text-black shadow-lg">
+                <div className="mb-8 rounded-2xl bg-gradient-to-br from-cyan-50 via-blue-100 to-violet-100 p-8 text-black shadow-lg">
                     <p className="text-sm uppercase tracking-[0.2em] text-black-100">Task management</p>
                     <h1 className="mt-3 text-3xl font-bold md:text-4xl">My daily workflow</h1>
                 </div>
 
                 <div className="grid gap-8 lg:grid-cols-[1.1fr_2fr]">
-                    <form onSubmit={handleSubmit} className="rounded-2xl bg-gradient-to-r from-black-400 to-indigo-200 p-6 shadow-md">
+                    <form onSubmit={handleSubmit} className="rounded-2xl bg-gradient-to-br from-cyan-50 via-blue-100 to-violet-100 p-6 shadow-md">
                         <h2 className="mb-5 text-xl font-semibold text-slate-800">
                             {editingId ? "Edit task" : "Add new task"}
                         </h2>
@@ -169,7 +169,7 @@ const Home = () => {
                         </div>
                     </form>
 
-                    <div className="rounded-2xl bg-gradient-to-r from-black-400 to-indigo-200 p-6 shadow-md">
+                    <div className="rounded-2xl bg-gradient-to-br from-cyan-50 via-blue-100 to-violet-100 p-6 shadow-md">
                         <div className="mb-5 flex items-center justify-between">
                             <h2 className="text-xl font-semibold text-slate-800">Task list</h2>
                             <span className="rounded-full bg-sky-100 px-2.5 py-1 text-xs font-semibold text-sky-700">
